@@ -1,0 +1,13 @@
+body {
+    width: 1024px;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #ffff00;
+}
+
+h1 {
+    width: 30%;
+    float: left;
+}
