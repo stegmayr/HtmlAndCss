@@ -11,3 +11,12 @@ h1 {
     width: 30%;
     float: left;
 }
+
+nav {
+    width: 70%;
+    float: left;
+}
+
+.navList{
+    list-style-type: none;
+}
