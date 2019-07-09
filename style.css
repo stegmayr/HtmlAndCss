@@ -25,7 +25,7 @@ header h1 {
     float: left;
     margin-top: 6px;
     margin-left: 5px;
-    text-shadow: 2px 1px #808080;
+    text-shadow: 2px 1px #3f3f3f;
 }
 
 nav ul {
@@ -36,14 +36,14 @@ nav ul {
 
 nav ul li {
     padding: 5px;
-    background-color: #808080;
+    background-color: #555555;
     margin-top: 10px;
     margin-right: 2px;
     float: left;
 }
 
 nav ul li:hover {
- background-color: #585858;
+ background-color: #5f5f5f;
 }
 
 nav ul li a {
@@ -101,7 +101,7 @@ footer {
     position: absolute;
     bottom: 15px;
     width: 1024px;
-    color: #585858;
+    color: #3f3f3f;
     border-top: 1px solid #000;
 }
 
