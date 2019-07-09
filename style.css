@@ -25,6 +25,7 @@ header h1 {
     float: left;
     margin-top: 6px;
     margin-left: 5px;
+    text-shadow: 2px 1px #808080;
 }
 
 nav ul {
@@ -56,8 +57,9 @@ nav ul li a {
     float: left;
 }
 
-h2 {
-    margin: 5px;
+.container h2 {
+    margin: 5px auto 7px auto;
+    text-decoration: underline;
 }
 
 .container article {
@@ -68,26 +70,41 @@ h2 {
     float: left;
 }
 
+.container article #p2 {
+font-weight: bold;
+color: #191992;
+}
+
+.container article img {
+    margin-top: 10px;
+}
+
 aside {
     width: 20%;
     float: right;
+    margin-top: 5px;
 }
 
 aside ul {
     margin: 25px;
+    margin-top: 10px;
+    color: #191992;
 }
 
 aside ul ol {
     margin: 5px;
+    margin-left: 10px;
+    color: #000;
 }
 
 footer {
     position: absolute;
     bottom: 15px;
     width: 1024px;
-    border-top: 1px solid #585858;
+    color: #585858;
+    border-top: 1px solid #000;
 }
 
 footer p {
-    margin-top: 5px;
+    margin-top: 8px;
 }
